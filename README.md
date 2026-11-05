@@ -1,15 +1,37 @@
 # Pug 翻译
 
-Safari / Chrome 网页翻译扩展：自动把网页翻成中文，默认只显示译文。
+Safari / Chrome 网页翻译扩展：按浏览器语言自动翻译网页，默认只显示译文。
 
 ## 功能
 
 - 打开网页自动翻译，也可以切换为手动翻译；支持按站点设置自动/不自动。
 - 仅译文或“原文 + 译文”双语显示；目标语言默认跟随浏览器，也可以手动固定。
 - 优先翻译当前屏幕，滚动到哪里继续翻译；保留链接、图片、按钮和代码。
-- 界面汉化：GitHub、Stack Exchange 全系、Hacker News、TED、Vimeo、Figma 等站点；固定界面文案内置多语言词表，新增文案使用 AI 兜底并缓存。
+- 界面翻译：只翻译导航、按钮、表单，不动正文；目标语言跟随浏览器。固定界面文案内置多语言词表，新增文案使用 AI 兜底并缓存。
 - 视频字幕翻译：YouTube 控制栏的“译”按钮、HTML5 播放器下方按钮；支持有字幕轨的站点，默认后台预翻译整条字幕轨。
 - 翻译服务：内置接口（无需配置）、自建 DeepLX、OpenAI 兼容接口。
+
+## 界面翻译站点
+
+界面翻译和整页翻译共用目标语言，默认跟随浏览器。目前覆盖：
+
+| 站点 | 域名 |
+| --- | --- |
+| GitHub | `github.com` |
+| Stack Overflow | `stackoverflow.com`（含 `meta.stackoverflow.com`） |
+| Stack Exchange | `stackexchange.com`（含 `meta.stackexchange.com`） |
+| Super User | `superuser.com`（含 `meta.superuser.com`） |
+| Server Fault | `serverfault.com`（含 `meta.serverfault.com`） |
+| Ask Ubuntu | `askubuntu.com`（含 `meta.askubuntu.com`） |
+| MathOverflow | `mathoverflow.net`（含 `meta.mathoverflow.net`） |
+| Stack Apps | `stackapps.com` |
+| Hacker News | `news.ycombinator.com` |
+| Discord | `discord.com` |
+| TED | `ted.com` |
+| Vimeo | `vimeo.com` |
+| Figma | `figma.com` |
+
+界面翻译与整页翻译是两件事：前者只改导航、按钮、表单等界面文字，后者处理网页正文。
 
 ## 安装
 
