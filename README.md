@@ -37,14 +37,14 @@ Safari / Chrome 网页翻译扩展：按浏览器语言自动翻译网页，默�
 
 ### Safari（macOS）
 
-1. 下载 `Pug-Translate-0.11.33-universal.dmg`，打开并把 `Pug 翻译.app` 拖入“应用程序”。
+1. 下载 `Pug-Translate-0.11.34-universal.dmg`，打开并把 `Pug 翻译.app` 拖入“应用程序”。
 2. 打开 Safari → 设置 → 扩展，勾选 `Pug 翻译`，并允许访问网站。
 3. 如果扩展没有出现：Safari 设置 → 高级 → 勾选“显示网页开发者功能”，再到菜单栏“开发” → 勾选“允许未签名的扩展”。
 4. 未签名版每次退出 Safari 后，需要重新允许未签名扩展；如果 macOS 拦截 App，右键 App → 打开，或到“系统设置 → 隐私与安全性”点“仍要打开”。
 
 ### Chrome
 
-1. 下载 `Pug-Translate-Chrome-0.11.33.zip` 并解压。
+1. 下载 `Pug-Translate-Chrome-0.11.34.zip` 并解压。
 2. 打开 `chrome://extensions`，开启右上角“开发者模式”。
 3. 点“加载已解压的扩展程序”，选择解压后的目录。
 4. 固定 Pug 翻译，点图标或按 `Alt/Option+T` 翻译。
@@ -63,7 +63,7 @@ Chrome 版暂未上架应用商店。
 
 ## 版本
 
-0.11.33
+0.11.34
 
 ## 说明
 
