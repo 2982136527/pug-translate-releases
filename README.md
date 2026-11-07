@@ -7,6 +7,7 @@ Safari / Chrome / Edge / Firefox 网页翻译扩展：按浏览器语言自动�
 - 打开网页自动翻译，也可以切换为手动翻译；支持按站点设置自动/不自动。
 - 仅译文或“原文 + 译文”双语显示；目标语言默认跟随浏览器，也可以手动固定。
 - 优先翻译当前屏幕，滚动到哪里继续翻译；保留链接、图片、按钮和代码。
+- 原生控件翻译：下拉框、按钮、输入框占位符与图标按钮提示按可见文字翻译；隐藏的辅助标签不会进入译文。
 - 界面翻译：只翻译导航、按钮、表单，不动正文；目标语言跟随浏览器。固定界面文案内置多语言词表，新增文案使用 AI 兜底并缓存。
 - 视频字幕翻译：YouTube 打开视频后默认自动翻译字幕，也可点控制栏“译”按钮关闭或重新开启；HTML5 播放器下方按钮；支持有字幕轨的站点，默认后台预翻译整条字幕轨，字号随播放器大小缩放。
 - 划词/悬停/输入框翻译：选中文字点“译”；按住 Alt 悬停段落；输入框连按三次空格翻译并替换。
@@ -42,14 +43,14 @@ Safari / Chrome / Edge / Firefox 网页翻译扩展：按浏览器语言自动�
 
 ### Safari（macOS）
 
-1. 下载 `Pug-Translate-0.11.43-universal.dmg`，打开并把 `Pug 翻译.app` 拖入“应用程序”。
+1. 下载 `Pug-Translate-0.11.56-universal.dmg`，打开并把 `Pug 翻译.app` 拖入“应用程序”。
 2. 打开 Safari → 设置 → 扩展，勾选 `Pug 翻译`，并允许访问网站。
 3. 如果扩展没有出现：Safari 设置 → 高级 → 勾选“显示网页开发者功能”，再到菜单栏“开发” → 勾选“允许未签名的扩展”。
 4. 未签名版每次退出 Safari 后，需要重新允许未签名扩展；如果 macOS 拦截 App，右键 App → 打开，或到“系统设置 → 隐私与安全性”点“仍要打开”。
 
 ### Chrome / Edge
 
-1. 下载 `Pug-Translate-Chrome-0.11.43.zip`（Edge 用 `Pug-Translate-Edge-0.11.43.zip`）并解压。
+1. 下载 `Pug-Translate-Chrome-0.11.56.zip`（Edge 用 `Pug-Translate-Edge-0.11.56.zip`）并解压。
 2. Chrome 打开 `chrome://extensions`，Edge 打开 `edge://extensions`，开启“开发者模式”。
 3. 点“加载已解压的扩展程序”，选择解压后的目录。
 4. 固定 Pug 翻译，点图标或按 `Alt/Option+T` 翻译。
@@ -58,7 +59,7 @@ Chrome / Edge 版暂未上架应用商店。
 
 ### Firefox
 
-1. 下载 `Pug-Translate-Firefox-0.11.43.zip`。
+1. 下载 `Pug-Translate-Firefox-0.11.56.zip`。
 2. Firefox 地址栏打开 `about:debugging#/runtime/this-firefox`，点“临时载入附加组件”，选择 ZIP。
 3. 临时载入在重启 Firefox 后失效；正式分发需要签名。
 
@@ -76,7 +77,7 @@ Chrome / Edge 版暂未上架应用商店。
 
 ## 版本
 
-0.11.43
+0.11.56
 
 ## 说明
 
